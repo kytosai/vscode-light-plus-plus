@@ -3,7 +3,9 @@
 
 ## Install
 
-
+1. Go to [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=kytosai.vscode-light-plus-plus).
+2. Click on the `Install` button.
+3. Then select a theme. Currently the following themes are available: `VSCode Light++`
 
 ## How to develop ?
 
