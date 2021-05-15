@@ -1,0 +1,49 @@
+{
+  "name": "vscode-light-plus-plus",
+  "displayName": "VSCode Light++",
+  "description": "VSCode light default theme with a few changes",
+  "license": "MIT",
+  "version": "1.0.0",
+  "icon": "images/icon.png",  
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/kytosai/vscode-light-plus-plus"
+	},
+  "bugs": {
+		"url": "https://github.com/kytosai/vscode-light-plus-plus/issues"
+	},
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "light",
+    "default",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VSCode Light++",
+        "uiTheme": "vs",
+        "path": "./themes/vscode-light-plus-plus.json"
+      }
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon --watch src src/index.js",
+    "build": "node src/index.js",
+    "json": "json5 ./light_plus.json -o cc.json",
+    "update-vscode-default-theme": "curl https://raw.githubusercontent.com/microsoft/vscode/main/extensions/theme-defaults/themes/light_vs.json -o ./src/themes/vscode-default/light_vs.json && curl https://raw.githubusercontent.com/microsoft/vscode/main/extensions/theme-defaults/themes/light_plus.json -o ./src/themes/vscode-default/light_plus.json"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "json-easy-strip": "^1.0.6",
+    "json5": "^2.2.0"
+  }
+}
