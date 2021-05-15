@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.1.0 - 15/05/2021
+
+- Update icon
+
 ## v1.0.3 - 15/05/2021
 
 - Update `README.md`
