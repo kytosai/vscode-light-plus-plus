@@ -51,3 +51,4 @@ npm run build
 - [VSCode light+ theme config file](https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/light_plus.json)
 - [Use package json5 to parse .json file](https://github.com/json5/json5)
 - [Theme Color](https://code.visualstudio.com/api/references/theme-color)
+- [Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)

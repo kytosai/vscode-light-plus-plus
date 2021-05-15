@@ -1,9 +1,9 @@
 const fs = require('fs').promises;
 const jsonHelper = require('./jsonHelper');
 
-const vscodeLightDefault = jsonHelper.readFile('./src/themes/vscode-default/light_vs.json');
-const vscodeLightPlusDefault = jsonHelper.readFile('./src/themes/vscode-default/light_plus.json');
-const vscodeLightPlusPlus = jsonHelper.readFile('./src/themes/vscode-light-plus-plus/vscode-light-plus-plus.json');
+const vscodeLightDefault = jsonHelper.parseFile('./src/themes/vscode-default/light_vs.json');
+const vscodeLightPlusDefault = jsonHelper.parseFile('./src/themes/vscode-default/light_plus.json');
+const vscodeLightPlusPlus = jsonHelper.parseFile('./src/themes/vscode-light-plus-plus/vscode-light-plus-plus.json');
 
 fs.mkdir('./themes', { recursive: true })
   .then(() =>

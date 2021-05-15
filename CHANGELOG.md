@@ -1,5 +1,5 @@
-# Change Log
+# CHANGELOG
 
-## v1.0.0
+## v1.0.0 - 15/05/2021
 
-- Initial release
+- First release

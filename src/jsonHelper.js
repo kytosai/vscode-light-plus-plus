@@ -1,20 +1,15 @@
-const fs = require('fs').promises;
+const fs = require('fs');
 const JSON5 = require('json5');
 
 const jsonHelper = {
-  async readFile(path) {
+  parseFile(path) {
     if (typeof path !== 'string') {
       return undefined;
     }
 
-    let jsonDecoded = null;
-    try {
-      const fileContent = await fs.readFile(path, 'utf8');
-      jsonDecoded = JSON5.parse(fileContent);
-    } catch (e) {
-      console.log(e);
-    }
-
+    const fileContent = fs.readFileSync(path, 'utf8')        
+    const jsonDecoded = JSON5.parse(fileContent);
+    
     return jsonDecoded;
   },
 };
