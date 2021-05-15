@@ -38,6 +38,7 @@
     "dev": "nodemon --watch src src/index.js",
     "build": "node src/index.js",
     "json": "json5 ./light_plus.json -o cc.json",
+    "vscode:publish": "vsce publish",
     "update-vscode-default-theme": "curl https://raw.githubusercontent.com/microsoft/vscode/main/extensions/theme-defaults/themes/light_vs.json -o ./src/themes/vscode-default/light_vs.json && curl https://raw.githubusercontent.com/microsoft/vscode/main/extensions/theme-defaults/themes/light_plus.json -o ./src/themes/vscode-default/light_plus.json"
   },
   "devDependencies": {
