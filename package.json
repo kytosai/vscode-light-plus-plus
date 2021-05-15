@@ -1,9 +1,9 @@
 {
   "name": "vscode-light-plus-plus",
   "displayName": "VSCode Light++",
-  "description": "VSCode light default theme with a few changes",
+  "description": "VSCode light+ default theme with a few mini changes (add sidebar border, tab border,...)",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "kytosai",
   "icon": "icon.png",  
   "repository": {
@@ -23,7 +23,9 @@
     "vscode",
     "light",
     "default",
-    "theme"
+    "theme",
+    "plus",
+    "border"
   ],
   "contributes": {
     "themes": [
