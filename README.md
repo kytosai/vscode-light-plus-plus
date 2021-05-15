@@ -1,7 +1,8 @@
-# VSCode theme ++
+# VSCode Light++
+
+> VSCode light default theme with a few mini changes (add sidebar border, tab border,...)
 
 ![screenshot](https://i0.wp.com/s1.uphinh.org/2021/05/15/Screen-Shot-2021-05-15-at-15.44.34.png)
-
 
 ## Install
 
