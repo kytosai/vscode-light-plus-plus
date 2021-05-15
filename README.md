@@ -21,30 +21,29 @@ npm run update-vscode-default-theme
 
 - Edit config theme in `./src/themes/vscode-light-plus-plus/vscode-light-plus-plus.json` 
 - Press `F5` to open a new window with your extension loaded.
-- Open `File > Preferences > Color Themes` and pick your color theme.
-- Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) .
+- Open `File > Preferences > Color Themes` and pick `VSCode Light++`.
 
 ## How to build `.json` theme file ?
 
-Install package
+- Install package
 
 ```sh
 npm install
 ```
 
-Get new vscode default light theme config from github if you want 
+- Get new vscode default light theme config from github if you want 
 
 ```sh
 npm run update-vscode-default-theme
 ```
 
-Build
+- Build
 
 ```sh
 npm run build
 ```
 
-Check file `themes/vscode-light-plus-plus.json` with new config
+- Check file `themes/vscode-light-plus-plus.json` with new config
 
 ## Acknowledgements
 
