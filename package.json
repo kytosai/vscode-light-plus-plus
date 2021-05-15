@@ -3,7 +3,7 @@
   "displayName": "VSCode Light++",
   "description": "VSCode light default theme with a few changes",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "kytosai",
   "icon": "icon.png",  
   "repository": {
