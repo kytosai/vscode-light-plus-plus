@@ -3,9 +3,9 @@
   "displayName": "VSCode Light++",
   "description": "VSCode light default theme with a few changes",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "kytosai",
-  "icon": "images/icon.png",  
+  "icon": "icon.png",  
   "repository": {
 		"type": "git",
 		"url": "https://github.com/kytosai/vscode-light-plus-plus"
